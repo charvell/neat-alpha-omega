@@ -1,0 +1,17 @@
+# --- Neat Pulse Demo Safety Net ---
+
+# Ignore the actual config file where I keep my live keys
+config.py
+.env
+
+# Ignore Python's internal junk folders
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore local system files
+.DS_Store
+Thumbs.db
+
+# (Optional) Ignore the CSV if it contains sensitive user data
+# deployment.csv
